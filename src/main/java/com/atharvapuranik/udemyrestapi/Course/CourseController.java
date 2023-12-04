@@ -11,12 +11,9 @@ public class CourseController {
 
     @GetMapping("/")
     public List<Course> getCourse(){
-
         return Arrays.asList(
                 new Course(1,"Spring Boot", "Atharva"),
                 new Course(2,"Spring Boot", "Atharva")
         );
-
     }
-
 }
